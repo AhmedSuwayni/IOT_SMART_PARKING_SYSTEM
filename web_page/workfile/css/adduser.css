@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+    background-image: url("../img/img1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+
+
+ }
+
+
+ .container{
+
+     width: 500px;
+height: 450px;
+
+text-align: center;
+
+margin: 0 auto;
+
+background-color: rgba(248, 148, 6, 0.6);
+
+margin-top: 160px;
+
+
+ }
+
+ 
+

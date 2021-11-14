@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".NumberOfSlots">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="102dp"
+        android:text="Number Of Columns"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#F6D36D"
+        android:textSize="24sp" />
+
+    <NumberPicker
+        android:id="@+id/picker"
+        android:layout_width="103dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="163dp"
+
+        android:solidColor="@color/Orange_200"
+        android:theme="@style/AppTheme.Picker" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/picker"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="79dp"
+        android:text="Number Of Parking Slots"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#F6D36D"
+        android:textSize="24sp" />
+
+    <NumberPicker
+        android:id="@+id/picker2"
+        android:layout_width="101dp"
+        android:layout_height="156dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="163dp"
+        android:solidColor="@color/Orange_200"
+        android:theme="@style/AppTheme.Picker" />
+
+    <Button
+        android:id="@+id/AddPAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/AddPSS"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/rounded_button"
+        android:text="Done"
+        android:textColor="@color/white" />
+
+    <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+    <Button
+        android:id="@+id/AddPSS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/rounded_button"
+        android:text="cancel"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

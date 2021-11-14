@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".AdminUI">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="154dp"
+        android:text="Admin Menu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#F6D36D" />
+
+
+
+    <Button
+        android:id="@+id/AddPA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_button"
+        android:text="Add Parking Area"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/AddPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_button"
+        android:text="Add Parking Spots"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/DelPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_button"
+        android:text="Delete parking Spots"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/DelPA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_button"
+        android:text="Delete parking Area"
+        android:textColor="@color/white" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+
+
+
+</LinearLayout>
